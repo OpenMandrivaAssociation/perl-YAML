@@ -11,7 +11,6 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/YAML/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel >= 5.6.1
 %endif
