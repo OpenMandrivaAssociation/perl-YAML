@@ -1,7 +1,7 @@
 %define module	YAML
 %define name	perl-%{module}
 %define version 0.68
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -12,6 +12,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
 Source:     http://www.cpan.org/modules/by-module/YAML/%{module}-%{version}.tar.gz
 BuildRequires:	perl-Test-Base >= 0.47
+Provides:       perl-YAML-parser
 Buildarch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
