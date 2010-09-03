@@ -1,9 +1,9 @@
 %define upstream_name	 YAML
-%define upstream_version 0.71
+%define upstream_version 0.72
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 2
+Release:	%mkrel 1
 
 Summary:	YAML Ain't Markup Language (tm)
 License:	GPL+ or Artistic
