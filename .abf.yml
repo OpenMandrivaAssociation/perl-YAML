@@ -1,2 +1,4 @@
+removed_sources:
+  YAML-0.84.tar.gz: 44e9dff8ff5d134317863ce0e1b1705fb38563bc
 sources:
-  "YAML-0.84.tar.gz": 44e9dff8ff5d134317863ce0e1b1705fb38563bc
+  YAML-0.88.tar.gz: 560116157210d45dbbe6b5e2d9990822c04b0108
