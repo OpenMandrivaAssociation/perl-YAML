@@ -1,5 +1,5 @@
 %define modname	YAML
-%define modver 0.88
+%define modver 0.90
 
 Summary:	YAML Ain't Markup Language (tm)
 Name:		perl-%{modname}
@@ -43,5 +43,6 @@ make test
 %{perl_vendorlib}/YAML*
 %{perl_vendorlib}/Test/YAML*
 %{_mandir}/man3/*
+
 
 
