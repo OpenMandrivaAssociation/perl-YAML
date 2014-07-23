@@ -1,11 +1,11 @@
 %define modname	YAML
-%define modver 0.92
+%define modver 0.95
 
 Summary:	YAML Ain't Markup Language (tm)
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	3
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
@@ -44,7 +44,3 @@ make test
 %{perl_vendorlib}/YAML*
 %{perl_vendorlib}/Test/YAML*
 %{_mandir}/man3/*
-
-
-
-
