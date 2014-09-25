@@ -1,5 +1,5 @@
 %define modname	YAML
-%define modver 0.95
+%define modver 1.11
 
 Summary:	YAML Ain't Markup Language (tm)
 
