@@ -43,5 +43,5 @@ make test
 %files
 %doc Changes README
 %{perl_vendorlib}/YAML*
-%{perl_vendorlib}/Test/YAML*
+# %{perl_vendorlib}/Test/YAML*
 %{_mandir}/man3/*
