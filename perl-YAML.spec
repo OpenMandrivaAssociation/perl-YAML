@@ -10,11 +10,10 @@ License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
 Source0:	http://www.cpan.org/modules/by-module/%{modname}/%{modname}-%{modver}.tar.gz
-Buildarch:	noarch
 BuildRequires:	perl-Test-Base >= 0.47
-BuildRequires: perl(Test::YAML)
 BuildRequires:	perl-devel
 Provides:	perl-YAML-parser
+BuildArch:	noarch
 
 %description
 The YAML.pm module implements a YAML Loader and Dumper based on the YAML 1.0
