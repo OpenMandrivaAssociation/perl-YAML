@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
 Source0:	http://www.cpan.org/modules/by-module/%{modname}/%{modname}-%{modver}.tar.gz
 BuildRequires:	perl-Test-Base >= 0.47
+BuildRequires: perl(Test::YAML)
 BuildRequires:	perl-devel
 Provides:	perl-YAML-parser
 BuildArch:	noarch
