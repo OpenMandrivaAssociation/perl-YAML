@@ -4,5 +4,6 @@ removed_sources:
   YAML-0.90.tar.gz: e531f6060c1f22c35e38df24a7d05a3163c3ca18
   YAML-0.92.tar.gz: 686a05503d591d518b689148c4e4f81c6f59a4dd
   YAML-0.95.tar.gz: d91c42a2fbc773e78e35f75284797c8465850176
-sources:
   YAML-1.11.tar.gz: d341f2056663dc6ca0147af9cf47349358793c2e
+sources:
+  YAML-1.14.tar.gz: 9124d31d1cf147e11dc90950ddc7041379d07cdf
