@@ -1,5 +1,5 @@
 %define modname	YAML
-%define modver 1.27
+%define modver 1.30
 
 Summary:	YAML Ain't Markup Language (tm)
 
@@ -26,7 +26,7 @@ programming languages. (Including Perl!!!)
 For information on the YAML syntax, please refer to the YAML specification.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor <<EOF
