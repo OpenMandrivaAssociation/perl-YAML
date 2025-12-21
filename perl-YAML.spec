@@ -10,6 +10,7 @@ License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/YAML
 Source0:	http://www.cpan.org/modules/by-module/%{modname}/%{modname}-%{modver}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-Test-Base >= 0.47
 BuildRequires:	perl-devel
 Provides:	perl-YAML-parser
